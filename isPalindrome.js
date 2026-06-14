@@ -1,4 +1,5 @@
 function isPalindrome(str) {
+  if (str == null) return false;
   const normalize = s =>
     s
       .toLowerCase()
@@ -23,3 +24,7 @@ console.log(isPalindrome('Daría todo por ir a Daríd')); // false  (control: no
 
 // Caso con tildes
 console.log(isPalindrome('Amo la paloma'));         // true  (á→a, normaliza a "amolapaloma")
+
+// Casos null/undefined
+console.log(isPalindrome(null));                    // false
+console.log(isPalindrome(undefined));               // false

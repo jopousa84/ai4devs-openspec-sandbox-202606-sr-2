@@ -15,6 +15,6 @@ Escribe una función JavaScript llamada `isPalindrome(str)` que:
 Sin dependencias externas. Solo Node.js puro.
  
 *Resultado:* ¿Funcionó a la primera o tuviste que iterar?
-Funcionó a la primera
+Agregué una iteración extra para validar nulls.
 
 No tengo observaciones sobre open spec por ahora, curioso de como vamos a utilizarlo en general :)
